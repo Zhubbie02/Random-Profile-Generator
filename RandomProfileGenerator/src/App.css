@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: montserrat;
+}
+.container {
+  background-color: rgba(0, 0, 128, 0.5);
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.user-profile-container {
+  height: 550px;
+  width: 350px;
+  border-radius: 12px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  animation: nice-colors 3s infinite;
+}
+
+.user-profile-container img {
+  width: 150px;
+  border-radius: 25%;
+  margin-top: 30px;
+  border: 1px solid #7d1dcc;
+  transition: 2s;
+}
+
+.user-profile-container h1 {
+  font-size: 20px;
+  z-index: 1;
+  font-family: "Roboto Slab", serif;
+  margin-top: 80px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.user-profile-container .headerTitle {
+  font-size: 20px;
+  display: block;
+  z-index: 1;
+  font-family: "Roboto Slab", serif;
+  margin-right: 40px;
+  margin-left: 40px;
+  text-align: center;
+  margin-top: 80px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.user-profile-container p, h3 {
+  margin-top: 5px;
+  font-style: italic;
+  color:  #7d1dcc;
+  text-align: center;
+}
+.user-profile-container span {
+  text-align: center;
+  margin-top: 20px;
+}
+.user-profile-container button {
+  background-color:  #7d1dcc;
+  padding: 10px 30px;
+  border: 1px solid  #7d1dcc;
+  border-radius: 50px;
+  color: #ffffff;
+  margin-top: 40px;
+  cursor: pointer;
+  transition: color 1s;
+  font-weight: 600;
+}
+
+
+
+
+
